@@ -20,7 +20,9 @@ function App() {
   return <div className="App">
     <Navbar />
     <Hero />
+    <section className="cards-list">
     {card}
+    </section>
   </div>;
 }
 
